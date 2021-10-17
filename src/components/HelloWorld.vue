@@ -1,5 +1,5 @@
 <template>
- <div class="container mt-3">
+ <div class="container mt-3 border">
    <div class="card" style="width: 100%;">
   <div class="card-body">
     <h5 class="card-title">Gif Router</h5>
