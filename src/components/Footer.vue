@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
-      <footer class="text-center bg-dark text-white py-3 bg-gradient">
-          <h2>&copy; {{ year }} - Libia M Freites M</h2>
+      <footer class="text-center bg-warning text-white py-3 bg-gradient">
+          <h2 class=" text-black">&copy; {{ year }} - Libia M Freites M</h2>
       </footer>
   </div>
 </template>

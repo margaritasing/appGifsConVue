@@ -16,25 +16,26 @@ const routes = [{
             import ( /* webpackChunkName: "about" */ '../views/About.vue')
     },
     {
-        path: '/gift',
-        name: 'Gift',
+        path: '/gifs',
+        name: 'Gifs',
         // route level code-splitting
-        // this generates a separate chunk (gift.[hash].js) for this route
+        // this generates a separate chunk (gifs.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
-            import ( /* webpackChunkName: "gift" */ '../views/Gift.vue')
+            import ( /* webpackChunkName: "gifs" */ '../views/Gifs.vue')
 
     },
     {
-        path: '/stickert',
-        name: 'Stickert',
+        path: '/stickers',
+        name: 'Stickers',
         // route level code-splitting
-        // this generates a separate chunk (stickert.[hash].js) for this route
+        // this generates a separate chunk (stickers.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
-            import ( /* webpackChunkName: "stickert" */ '../views/Stickert.vue')
+            import ( /* webpackChunkName: "stickers" */ '../views/Stickers.vue')
 
     }
+
 
 ]
 

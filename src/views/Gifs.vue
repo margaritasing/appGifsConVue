@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     async getGifs(search = "goku") {
-      const key = "MKQ26ZeLr2niNEDZfygMh30DhAFFunaN";
+      const key = "AylID2FIhH3UO0RqAScBCRPle2qd4sMC";
 
       this.load = true;
 
