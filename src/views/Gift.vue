@@ -16,20 +16,23 @@ import GifCard from '../components/GifCard.vue';
 export default {
   components: { GifCard },
     data: () => ({
-        gifs: null,
+        gifs: {},
     }),
-
-    mounted() {
+    created() {
         this.getGifs();
     },
 
-    methods: {
-        async getGifs(){
-            const { data } =  await this.axios.get("api.giphy.com/v1/gifs/random?api_key=Ptw48R0LYQdeM2viu58t5SsYUmuwMuAF");
+    methods:{
+         async getGifs(){
+            const { data } =  await this.axios.get("api.giphy.com/v1/gifs/random?api_key=u9k70IglGZzmFNn3nU24QWPhgtcWA7pt");
                 this.gifs = data.data;
                 console.log(this.gifs)
        },
-    },
+
+    }
+
+
+    
 };
 </script>
 
